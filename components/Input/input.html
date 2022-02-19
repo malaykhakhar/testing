@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Image</title>
-    <link rel="stylesheet" href="image.css" />
+    <title>Input</title>
+    <link rel="stylesheet" href="input.css" />
   </head>
   <body>
     <div class="container-grid">
@@ -31,8 +31,8 @@
             <li><a href="/components/Badge/badge.html" class="remove-deco">Badge</a></li>
             <li><a href="/components/Button/button.html" class="remove-deco">Button</a></li>
             <li><a href="#" class="remove-deco">Card</a></li>
-            <li class="active"><a href="/components/Image/image.html" class="active-color remove-deco">Image</a></li>
-            <li><a href="/components/Input/input.html" class="remove-deco">Input</a></li>
+            <li><a href="/components/Image/image.html" class="remove-deco">Image</a></li>
+            <li class="active"><a href="/components/Input/input.html" class="active-color remove-deco">Input</a></li>
             <li><a href="/components/Text Utilities/text_utilities.html" class="remove-deco">Text Utilities</a></li>
             <li><a href="/components/Navigation/navigation.html" class="remove-deco">Navigation</a></li>
             <li><a href="/components/Grid/grid.html" class="remove-deco">Grid</a></li>
@@ -40,26 +40,42 @@
         </div>
       </aside>
       <main>
-        <h1>Image</h1>
+        <h1>Input</h1>
         <p class="main-para">
-          Images provide visual information of an application.
+          Input can be used to collect data from the User.
         </p>
-        <h1>Responsive Image</h1>
-        <div class="container-image">
-          <img src="/components/images/responsive-image.jpg" alt="responsive-image" class="img-resp">
-        </div>
-
-        <h1>Round Image</h1>
-        <br>
-        <br>
-        <img src="/components/images/responsive-image.jpg" alt="responsive-image" class="img-round">
+        <h1>Text Input</h1>
+        <form action="" class="form">
+          <div class="form-item">
+            <label for="Password" class="form-label"><small>Password</small></label>
+            <input type="text" placeholder="Enter your password here" class="form-input">
+          </div>
+        </form>
+        <h1>Text input with validation and errors</h1>
+        <form action="" class="form">
+          <div class="form-item">
+            <label for="Password" class="form-label"><small>Password</small></label>
+            <input type="text" placeholder="Enter your password here" class="form-input form-input-error">
+            <span class="form-error-msg"><small>Password too weak</small></span>
+          </div>
+        </form>
+        <form action="" class="form">
+          <div class="form-item">
+            <label for="Password" class="form-label"><small>Confirm Password</small></label>
+            <input type="text" placeholder="Enter your password here" class="form-input form-input-success">
+            <span class="form-success-msg"><small>Password matched!</small></span>
+          </div>
+        </form>
 
         <iframe
-          src="https://carbon.now.sh/embed/6sofNhu8BVaNrTKYnusb"
-          style="width: 680px; height: 353px; border:0; transform: scale(1); overflow:hidden;"
+          src="https://carbon.now.sh/embed/br1KSK1fUdxn9HZW75JH"
+          style="width: 914px; height: 726px; border:0; transform: scale(1); overflow:hidden;"
           sandbox="allow-scripts allow-same-origin">
         </iframe>
+
       </main>
     </div>
   </body>
 </html>
+
+

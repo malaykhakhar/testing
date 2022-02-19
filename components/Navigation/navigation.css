@@ -1,0 +1,39 @@
+@import url("/style.css");
+
+:root {
+  --primary-color: crimson;
+  --white: #fff;
+}
+
+.head {
+  display: flex;
+  background-color: var(--primary-color);
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 7rem;
+}
+
+.header__logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header__nav {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header__nav li {
+  display: inline-block;
+}
+
+.header__nav a {
+  padding: 0.8rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}

@@ -138,3 +138,8 @@ aside hr {
   align-items: center;
   justify-content: space-between;
 }
+
+.container-image {
+  margin: 3rem 0;
+  width: 70vw;
+}

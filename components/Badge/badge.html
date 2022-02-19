@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Badge</title>
+    <link rel="stylesheet" href="badge.css" />
+  </head>
+  <body>
+
+    <div class="container-grid">
+      <header class="header">
+        <h1 class="logo"><a href="#">RapidUI</a></h1>
+
+        <div class="header-nav">
+          <nav class="nav">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Documentation</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <aside>
+        <hr>
+        <div class="sidebar">
+          <h4>Components</h2>
+          <ul>
+            <li><a href="/components/Avatar/avatar.html" class="remove-deco">Avatar</a></li>
+            <li><a href="/components/Alert/alert.html" class=" remove-deco">Alert</a></li>
+            <li class="active"><a href="/components/Badge/badge.html" class="active-color remove-deco">Badge</a></li>
+            <li><a href="/components/Button/button.html" class="remove-deco">Button</a></li>
+            <li><a href="#" class="remove-deco">Card</a></li>
+            <li><a href="#" class="remove-deco">Image</a></li>
+            <li><a href="#" class="remove-deco">Input</a></li>
+          </ul>
+        </div>
+      </aside>
+      <main>
+        <h1>Badge</h1>
+        <p class="main-para">
+          Badges Are Used To Highlight An Item's Status For Quick Recognition.
+          <br>
+          <br>
+        </p>
+        <h1>Badge on Avatars</h1>
+        <p class="main-para">There are 3 type of badges that you can use - online(green color), offline(red color) and do not disturb(gray color). <br><br> The badges also have 5 sizes depending on the avatar you use - badge-xl, badge-l, badge-m, badge-s, badge-xs</p>
+        <div class="container-avatars">
+          <div class="container-badge">
+            <img
+              src="/components/images/boy-avatar.svg"
+              alt="avatar"
+              class="avatar avatar-l"
+            />
+            <span class="badge-avatar badge-l badge-online"></span>
+          </div>
+
+          <div class="container-badge">
+            <img
+              src="/components/images/boy-avatar.svg"
+              alt="avatar"
+              class="avatar avatar-m"
+            />
+            <span class="badge-avatar badge-m badge-offline"></span>
+          </div>
+
+          <div class="container-badge">
+            <img
+              src="/components/images/boy-avatar.svg"
+              alt="avatar"
+              class="avatar avatar-s"
+            />
+            <span class="badge-avatar badge-s badge-dnd"></span>
+          </div>
+        </div>
+
+        <iframe
+  src="https://carbon.now.sh/embed/I4w937Dd3dZxyVUUA371"
+  style="width: 680px; height: 707px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+        <h1>Badge on Icons</h1>
+        <p>The badge on icons are available in one size</p>
+
+        <div class="container-avatars">
+          <div class="container-badge">
+            <img src="/components/images/github-icon.svg" alt="">
+            <span class="badge-icon">12</span>
+          </div>
+          <div class="container-badge">
+            <img src="/components/images/linkedin-icon.svg" alt="">
+            <span class="badge-icon">12</span>
+          </div>
+        </div>
+        <iframe
+  src="https://carbon.now.sh/embed/biJ4Bm4cyMicZOVoAjqs"
+  style="width: 680px; height: 409px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+      </main>
+      </div>
+  </body>
+</html>

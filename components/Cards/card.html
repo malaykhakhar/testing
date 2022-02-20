@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+    <link rel="stylesheet" href="card.css" />
+  </head>
+  <body>
+    <div class="container-grid">
+      <header class="header">
+        <h1 class="logo"><a href="#">RapidUI</a></h1>
+
+        <div class="header-nav">
+          <nav class="nav">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Documentation</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <aside>
+        <hr>
+        <div class="sidebar">
+          <h4>Components</h2>
+          <ul>
+            <li><a href="/components/Avatar/avatar.html" class="remove-deco">Avatar</a></li>
+            <li><a href="/components/Alert/alert.html" class="active-color remove-deco">Alert</a></li>
+            <li><a href="/components/Badge/badge.html" class="remove-deco">Badge</a></li>
+            <li><a href="/components/Button/button.html" class="remove-deco">Button</a></li>
+            <li class="active"><a href="/components/Cards/card.html" class="active-color  remove-deco">Card</a></li>
+            <li><a href="/components/Image/image.html" class="remove-deco">Image</a></li>
+            <li><a href="/components/Input/input.html" class="remove-deco">Input</a></li>
+            <li><a href="/components/Text Utilities/text_utilities.html" class="remove-deco">Text Utilities</a></li>
+            <li><a href="/components/Navigation/navigation.html" class="remove-deco">Navigation</a></li>
+            <li><a href="/components/Grid/grid.html" class="remove-deco">Grid</a></li>
+          </ul>
+        </div>
+      </aside>
+      <main>
+        <h1>Card</h1>
+        <p class="main-para">
+          The card component can be used to display information of a single object like text, images, buttons.
+        </p>
+        <h1>Vertical/Horizontal Cards</h1>
+
+        <div class="container-card">
+          <div class="card vertical-flex card-vertical">
+            <div class="card-img">
+              <img src="/components/images/sofa.svg" alt="">
+            </div>
+            <div class="card-main vertical-flex">
+              <div class="card-main-title vertical-flex">
+                <div class="product-title"><b>Sofa</b></div>
+                <div class="product-price">Rs. 3999</div>
+              </div>
+              <div class="card-main-desc text-gray text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, labore!</div>
+              <div class="card-main-btn vertical-flex">
+                <div><a href="" class="remove-deco text-small">Expand for more details</a></div>
+                <div><a href="" class="remove-deco text-small">Add to cart</a></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card horizontal-flex card-horizontal">
+            <div class="card-img">
+              <img src="/components/images/sofa.svg" alt="">
+            </div>
+            <div class="card-main vertical-flex">
+              <div class="card-main-title vertical-flex">
+                <div class="product-title"><b>Sofa</b></div>
+                <div class="product-price">Rs. 3999</div>
+              </div>
+              <div class="card-main-desc text-gray text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, labore!</div>
+              <div class="card-main-btn vertical-flex">
+                <div><a href="" class="remove-deco text-small">Expand for more details</a></div>
+                <div><a href="" class="remove-deco text-small">Add to cart</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h1>Card with badges</h1>
+
+        <div class="container-card">
+          <div class="card vertical-flex card-vertical">
+            <div class="card-img">
+              <img src="/components/images/sofa.svg" alt="">
+            </div>
+            <div class="card-main vertical-flex">
+              <div class="card-main-title vertical-flex">
+                <div class="product-title"><b>Sofa</b></div>
+                <div class="product-price">Rs. 3999</div>
+              </div>
+              <div class="card-main-desc text-gray text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, labore!</div>
+              <div class="card-main-btn vertical-flex">
+                <div><a href="" class="remove-deco text-small">Expand for more details</a></div>
+                <div><a href="" class="remove-deco text-small">Add to cart</a></div>
+              </div>
+            </div>
+            <span class="card-badge text-small">New</span>
+          </div>
+
+          <div class="card horizontal-flex card-horizontal">
+            <div class="card-img">
+              <img src="/components/images/sofa.svg" alt="">
+            </div>
+            <div class="card-main vertical-flex">
+              <div class="card-main-title vertical-flex">
+                <div class="product-title"><b>Sofa</b></div>
+                <div class="product-price">Rs. 3999</div>
+              </div>
+              <div class="card-main-desc text-gray text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, labore!</div>
+              <div class="card-main-btn vertical-flex">
+                <div><a href="" class="remove-deco text-small">Expand for more details</a></div>
+                <div><a href="" class="remove-deco text-small">Add to cart</a></div>
+              </div>
+            </div>
+            <span class="card-badge text-small">New</span>
+          </div>
+        </div>
+
+        <h1>Card with dismiss</h1>
+
+        <div class="container-card">
+          <div class="card vertical-flex card-vertical">
+            <div class="card-img">
+              <img src="/components/images/sofa.svg" alt="">
+            </div>
+            <div class="card-main vertical-flex">
+              <div class="card-main-title vertical-flex">
+                <div class="product-title"><b>Sofa</b></div>
+                <div class="product-price">Rs. 3999</div>
+              </div>
+              <div class="card-main-desc text-gray text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, labore!</div>
+              <div class="card-main-btn vertical-flex">
+                <div><a href="" class="remove-deco text-small">Expand for more details</a></div>
+                <div><a href="" class="remove-deco text-small">Add to cart</a></div>
+              </div>
+            </div>
+            <img src="/components/images/close.png" alt="" class="card-dismiss">
+          </div>
+
+          <div class="card horizontal-flex card-horizontal">
+            <div class="card-img">
+              <img src="/components/images/sofa.svg" alt="">
+            </div>
+            <div class="card-main vertical-flex">
+              <div class="card-main-title vertical-flex">
+                <div class="product-title"><b>Sofa</b></div>
+                <div class="product-price">Rs. 3999</div>
+              </div>
+              <div class="card-main-desc text-gray text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, labore!</div>
+              <div class="card-main-btn vertical-flex">
+                <div><a href="" class="remove-deco text-small">Expand for more details</a></div>
+                <div><a href="" class="remove-deco text-small">Add to cart</a></div>
+              </div>
+            </div>
+            <img src="/components/images/close.png" alt="" class="card-dismiss">
+          </div>
+        </div>
+
+        <h1>Card with shadow</h1>
+
+        <div class="container-card">
+          <div class="card vertical-flex card-vertical card-shadow">
+            <div class="card-img">
+              <img src="/components/images/sofa.svg" alt="">
+            </div>
+            <div class="card-main vertical-flex">
+              <div class="card-main-title vertical-flex">
+                <div class="product-title"><b>Sofa</b></div>
+                <div class="product-price">Rs. 3999</div>
+              </div>
+              <div class="card-main-desc text-gray text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, labore!</div>
+              <div class="card-main-btn vertical-flex">
+                <div><a href="" class="remove-deco text-small">Expand for more details</a></div>
+                <div><a href="" class="remove-deco text-small">Add to cart</a></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card horizontal-flex card-horizontal card-shadow">
+            <div class="card-img">
+              <img src="/components/images/sofa.svg" alt="">
+            </div>
+            <div class="card-main vertical-flex">
+              <div class="card-main-title vertical-flex">
+                <div class="product-title"><b>Sofa</b></div>
+                <div class="product-price">Rs. 3999</div>
+              </div>
+              <div class="card-main-desc text-gray text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, labore!</div>
+              <div class="card-main-btn vertical-flex">
+                <div><a href="" class="remove-deco text-small">Expand for more details</a></div>
+                <div><a href="" class="remove-deco text-small">Add to cart</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h1>Card with text overlay</h1>
+
+        <div class="container-card">
+          <div class="card vertical-flex card-vertical">
+            <div class="card-img">
+              <img src="/components/images/sofa.svg" alt="">
+            </div>
+            <div class="card-main vertical-flex">
+              <div class="card-main-title vertical-flex">
+                <div class="product-title"><b>Sofa</b></div>
+                <div class="product-price">Rs. 3999</div>
+              </div>
+              <div class="card-main-desc text-gray text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, labore!</div>
+              <div class="card-main-btn vertical-flex">
+                <div><a href="" class="remove-deco text-small">Expand for more details</a></div>
+                <div><a href="" class="remove-deco text-small">Add to cart</a></div>
+              </div>
+            </div>
+            <div class="card-text-overlay">Out of Stock</div>
+          </div>
+
+          <div class="card horizontal-flex card-horizontal">
+            <div class="card-img">
+              <img src="/components/images/sofa.svg" alt="">
+            </div>
+            <div class="card-main vertical-flex">
+              <div class="card-main-title vertical-flex">
+                <div class="product-title"><b>Sofa</b></div>
+                <div class="product-price">Rs. 3999</div>
+              </div>
+              <div class="card-main-desc text-gray text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, labore!</div>
+              <div class="card-main-btn vertical-flex">
+                <div><a href="" class="remove-deco text-small">Expand for more details</a></div>
+                <div><a href="" class="remove-deco text-small">Add to cart</a></div>
+              </div>
+            </div>
+            <div class="card-text-overlay">Out of Stock</div>
+          </div>
+        </div>
+
+        <h1>Text Only card</h1>
+
+        <div class="container-card">
+          <div class="card vertical-flex card-vertical text-card">
+            <div class="text-card-title">Title</div>
+            <div class="text-card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, ipsam excepturi, fugit molestias est repellat rem exercitationem, ab perferendis tempore repellendus iusto totam qui optio illo rerum iste eveniet placeat!
+            </div>
+            <button class="text-card-button">Read More</button>
+          </div>
+        </div>
+
+        <iframe
+          src="https://carbon.now.sh/embed/NSfLLngKBzCcY6xYGSUd"
+          style="width: 680px; height: 4652px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </main>
+    </div>
+  </body>
+</html>

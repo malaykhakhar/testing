@@ -143,3 +143,10 @@ aside hr {
   margin: 3rem 0;
   width: 70vw;
 }
+
+.container-card {
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+  margin: 2.5rem 0;
+}

@@ -3,8 +3,8 @@
 ## Components
 
 - [Alerts](#Alerts)
-- [Badges](#Badges)
 - [Avatar](#Avatar)
+- [Badges](#Badges)
 - [Button](#Buttons)
 - [Card](#Cards)
 - [Image](#Images)
@@ -130,7 +130,5 @@ You can have 4 types of toasts
 # [Navigation](https://rapidui-library.netlify.app/components/navigation/navigation)
 
 It is used to navigate to different pages in web sites and apps.
-
-![Navigation image](https://github.com/Ankur9669/neatUI-component-lib/blob/Dev-Branch/Images/navigation.png)
 
 ---

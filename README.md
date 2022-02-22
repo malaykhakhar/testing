@@ -28,13 +28,13 @@ We have 4 types of alerts
 
 ---
 
-# Avatar
+# [Avatar](https://rapidui-library.netlify.app/components/avatar/avatar)
 
 The Avatar Component as a graphical representation of a person through a profile picture.
 
 ---
 
-# Badges
+# [Badges](https://rapidui-library.netlify.app/components/badge/badge)
 
 Badges Are Used To Highlight An Item's Status For Quick Recognition.
 
@@ -45,7 +45,7 @@ We have 2 types of badges
 
 ---
 
-# Buttons
+# [Buttons](https://rapidui-library.netlify.app/components/button/button)
 
 The Button component act for a simple action that a user can take. Below are the standard buttons.
 
@@ -59,7 +59,7 @@ We have 5 types of buttons
 
 ---
 
-# Cards
+# [Cards](https://rapidui-library.netlify.app/components/cards/card)
 
 The card component can be used to display information of a single object like text, images, buttons.
 
@@ -75,7 +75,7 @@ We have 3 types of cards
 
 ---
 
-# Images
+# [Images](https://rapidui-library.netlify.app/components/image/image)
 
 Using our library you can easily make your images responsive. Here all the images will be fitted to it's parent width.
 
@@ -86,18 +86,7 @@ You can have 2 types of images
 
 ---
 
-# Images
-
-Using our library you can easily make your images responsive. Here all the images will be fitted to it's parent width.
-
-You can have 2 types of images
-
-- Image which fits to the parent container
-- Round Image
-
----
-
-# Inputs
+# [Inputs](https://rapidui-library.netlify.app/components/input/input)
 
 Inputs are used for taking some important information from the user so that we can use that information for user benefit.
 
@@ -109,7 +98,7 @@ You can have 3 types of inputs
 
 ---
 
-# Typography
+# [Typography](https://rapidui-library.netlify.app/components/text%20utilities/text_utilities)
 
 We have gathered multiple font sizes and font weights which would help you a lot while writing your css.
 
@@ -125,38 +114,7 @@ We have gathered multiple font sizes and font weights which would help you a lot
 
 ---
 
-# Lists
-
-Lists are used in various places such as navigation bar, article page etc.
-
-You can have 2 types of lists
-
-- Unordered Lists
-- Ordered Lists
-
----
-
-# Modal
-
-Modals are used to show some important information to the user and they are closed only when the user selects some option.
-
-![Modal image](https://github.com/Ankur9669/neatUI-component-lib/blob/Dev-Branch/Images/modal.png)
-
----
-
-# Toast
-
-Toasts are used to show pop up messages to the user.
-
-You can have 3 types of toasts
-
-- Success Toast
-- Error Toast
-- Warning Toast
-
----
-
-# Grids
+# [Grids](https://rapidui-library.netlify.app/components/grid/grid)
 
 If you want to divide the page into parts grid comes very handy.
 
@@ -169,32 +127,10 @@ You can have 4 types of toasts
 
 ---
 
-# RatingBar
-
-It is used to take the user feedback on the product. You can use our ratingbar without needing to write any js for it.
-
-![RatingBar image](https://github.com/Ankur9669/neatUI-component-lib/blob/Dev-Branch/Images/rating.png)
-
----
-
-# Navigation
+# [Navigation](https://rapidui-library.netlify.app/components/navigation/navigation)
 
 It is used to navigate to different pages in web sites and apps.
 
 ![Navigation image](https://github.com/Ankur9669/neatUI-component-lib/blob/Dev-Branch/Images/navigation.png)
-
----
-
-# Slider
-
-Slider or Range are used for selecting the range. Like range of sound in video apps, range of price in e-commerce apps etc. For using slider just copy our html and replace the icon by your required one.
-
----
-
-# Forms
-
-Forms are used to take the information from the user.
-
-![Form image](https://github.com/Ankur9669/neatUI-component-lib/blob/Dev-Branch/Images/form.png)
 
 ---

@@ -15,7 +15,7 @@
 
 ---
 
-# [Alerts]
+# [Alerts](https://rapidui-library.netlify.app/components/alert/alert)
 
 Alert messages can be used to notify the user about something special: danger, success, information or warning.
 

@@ -1,4 +1,4 @@
-# neatUI
+# RapidUI
 
 ## Components
 
@@ -9,9 +9,9 @@
 - [Card](#Cards)
 - [Image](#Images)
 - [Input](#Inputs)
+- [Typography](#Typography)
 - [Navigation](#Navigation)
 - [Grid](#Grids)
-- [Typography](#Typography)
 
 ---
 
@@ -77,58 +77,50 @@ We have 3 types of cards
 
 # [Images](https://rapidui-library.netlify.app/components/image/image)
 
-Using our library you can easily make your images responsive. Here all the images will be fitted to it's parent width.
+Images provide visual information of an application.
 
-You can have 2 types of images
+We have 2 types of images
 
-- Image which fits to the parent container
+- Responsive Image
 - Round Image
 
 ---
 
 # [Inputs](https://rapidui-library.netlify.app/components/input/input)
 
-Inputs are used for taking some important information from the user so that we can use that information for user benefit.
+Input can be used to collect data from the User.
 
-You can have 3 types of inputs
+You can have 2 types of inputs
 
-- Floating Inputs
 - Simple Inputs
-- Inputs with Validation
+- Inputs with Validation and error
 
 ---
 
 # [Typography](https://rapidui-library.netlify.app/components/text%20utilities/text_utilities)
 
-We have gathered multiple font sizes and font weights which would help you a lot while writing your css.
+We have multiple text sizes and styles to help in styling.
 
-- Very large text
-- Large text
-- Medium large text
-- Medium text
+- Headings h1 to h6
 - Small text
-- Very small text
-- Small text
-- Text with bold weight
-- Text with bold weight
+- Gray text
+- Centre text
 
 ---
 
 # [Grids](https://rapidui-library.netlify.app/components/grid/grid)
 
-If you want to divide the page into parts grid comes very handy.
+The CSS Grid Layout offers a grid-based layout system, with rows and columns, making it easier to design web pages
 
-You can have 4 types of toasts
+You can have 2 types of Grids
 
-- 50-50 Grid
-- 70-30 Grid
-- 30-70 Grid
+- 2 items in a Grid
 - 3 items in a Grid
 
 ---
 
 # [Navigation](https://rapidui-library.netlify.app/components/navigation/navigation)
 
-It is used to navigate to different pages in web sites and apps.
+Navigation bar is used to navigate through a website. It is usually placed on top of a desktop website. Below is a simple navbar you can create.
 
 ---
